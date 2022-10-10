@@ -1,11 +1,11 @@
 # Project 2: Let's read news!
 Docker build process
-Using BBC news dataset downloaded from Kaggle
+
+- Using BBC news dataset downloaded from Kaggle
+- Purpose: The project aims to develop a news distribution system to let people decide how much information they want to access every time. They could also know what type of category it is when reading the news.
 
 ## Workflow
 ![project2](https://user-images.githubusercontent.com/112578755/194790708-faafc08a-51c6-45b1-b5f1-386a3fbe34f8.jpg)
-
-Purpose: The project aims to develop a news distribution system to let people decide how much information they want to access every time. They could also know what type of category it is when reading the news.
 
 ## Demo Video
 
