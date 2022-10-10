@@ -1,21 +1,20 @@
-# dockerdemo
-docker demo week4 -- following the lecture and codes
+# Project 2
 Docker build process
+Using BBC news dataset downloaded from Kaggle
 
-build docker build .
-list docker image ls
-run with your image id docker run -it 5aef9b0af70f /bin/bash repeat.sh 4 hello
-Push to DockerHub
+Purpose: I would like to develop a news distribution system to let people decide how much information they want to access every time. 
+
+First step: Run in Codespaces
 
 Create docker account, then access token, then place token in GitHub Secrets as DOCKER_HUB
 docker login: docker login -u <hub-user -p $DOCKER_HUB
 build and tag locally: docker build . -t <hub-user>/<repo-name>
 docker push
 Verify you can run it by pulling from Docker Hub: https://hub.docker.com/r/noahgift/tiny-container-demo/tags
-docker run -it /:latest /bin/bash repeat.sh 4 hello
+docker run -it /:latest /bin/bash 
 Example would be: docker run -it noahgift/tiny-container-demo:latest /bin/bash repeat.sh 4 hello
 
-Run in Cloud9
+Second step: Run in Cloud9
 
 run locally: docker run -it noahgift/tiny-container-demo:latest /bin/bash repeat.sh 4 hello
 retag and push:
