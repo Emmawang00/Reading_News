@@ -2,4 +2,4 @@ FROM alpine:latest
 RUN apk update && apk add bash
 
 WORKDIR /app
-COPY repeat.sh /app
+COPY news_distribution.sh /app
