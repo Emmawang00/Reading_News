@@ -7,10 +7,6 @@ Docker build process
 ## Workflow
 ![project2](https://user-images.githubusercontent.com/112578755/194790708-faafc08a-51c6-45b1-b5f1-386a3fbe34f8.jpg)
 
-## Demo Video
-
-[Demo video Link](https://user-images.githubusercontent.com/112578755/194793793-7dc3e8e3-a23e-4d0d-8c6b-c2a3d22cfba5.mp4)
-
 First Step: Code Build.
 
 Writing a bash command script (read_news.sh) in order to get the information we want from the dataset (news.csv).
